@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivityModel } from '../../model/activity.model';
-import { ActivityService } from '../../activity.service';
+import { ActivityService } from '../../services/activity.service';
 
 
 declare var google: any;
 
 @Component({
-  selector: 'app-pie-chart',
+  selector: 'pie-chart',
   templateUrl: './pie-chart.component.html',
   styleUrls: ['./pie-chart.component.css']
 })
