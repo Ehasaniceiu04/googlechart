@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { PieChartComponent } from './chart/pie-chart/pie-chart.component';
 import { ColumnChartComponent } from './chart/column-chart/column-chart.component';
 import { StackedColumnChartComponent } from './chart/stacked-column-chart/stacked-column-chart.component';
+import { BarChartComponent } from './chart/bar-chart/bar-chart.component';
+
 
 
 
@@ -15,7 +17,8 @@ import { StackedColumnChartComponent } from './chart/stacked-column-chart/stacke
     AppComponent,
     PieChartComponent,
     ColumnChartComponent,
-    StackedColumnChartComponent
+    StackedColumnChartComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
